@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views">
+
+	
+    <decorator name="homeControll" page="public/home.jsp">
+       <pattern>/*</pattern>
+    </decorator>
+     <decorator name="donenateControll" page="public/detail.jsp">
+       <pattern>/donate</pattern>
+    </decorator>
+    <decorator name="admin" page="admin/home.jsp">
+       <pattern>/quan-tri/trang-chu</pattern>
+    </decorator>
+   <decorator name="signupControll" page="signup.jsp">
+       <pattern>/dang-ki</pattern>
+    </decorator>
+     <decorator name="admin_user" page="admin/account.jsp">
+       <pattern>/quan-tri/user</pattern>
+    </decorator>
+    <decorator name="donate_admin" page="admin/donation.jsp">
+       <pattern>/quan-tri/donate</pattern>
+    </decorator>
+ <decorator name="listdonate_admin" page="admin/listdonate.jsp">
+       <pattern>/quan-tri/bill</pattern>
+    </decorator>
+    <decorator name="login" page="login.jsp">
+        <pattern>/dang-nhap</pattern>
+    </decorator>
+    
+    <decorator name="userControll" page="public/user.jsp">
+        <pattern>/user</pattern>
+    </decorator>
+</decorators>
